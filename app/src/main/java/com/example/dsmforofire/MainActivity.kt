@@ -1,7 +1,5 @@
 package com.example.dsmforofire
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,9 +10,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.dsmforofire.ui.theme.DSMForoFireTheme
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import com.example.dsmforofire.ui.screens.GastosApp
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import com.example.dsmforofire.ui.navigation.ControlGastosApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme {
                 Surface {
-                    GastosApp()
+                    ControlGastosApp()
                 }
             }
         }
