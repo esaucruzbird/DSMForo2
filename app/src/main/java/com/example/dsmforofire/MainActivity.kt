@@ -11,7 +11,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.dsmforofire.ui.theme.DSMForoFireTheme
 import androidx.compose.material3.Surface
-import com.example.dsmforofire.ui.screens.GastosApp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
